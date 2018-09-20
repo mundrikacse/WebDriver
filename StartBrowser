@@ -12,6 +12,7 @@ public class TestFacebookRegistration
 		driver.get("http://www.facebook.com");
 		driver.manage().window().maximize();
 		System.out.println("Browser Opened");
+		System.out.println("Yup!!! Finally we have write the code");
     
    }
  }
