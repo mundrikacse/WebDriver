@@ -17,18 +17,18 @@ public class TestFacebookRegistration
 		System.out.println("Browser Opened");
 		driver.findElement(By.xpath("//*[@id='u_0_h']")).sendKeys("Rahul");
 		Select sel1=new Select(driver.findElement(By.xpath("//*[@id='day']")));
-               sel1.selectByVisibleText("12");
-               Select sel2=new Select(driver.findElement(By.xpath("//*[@id='month']")));
-               sel2.selectByValue("2");
-              Select sel3=new Select(driver.findElement(By.xpath("//*[@id='year']")));
-              sel3.selectByIndex(3);
-              System.out.println("Dropdown Selected");
-               driver.findElement(By.xpath("//*[@id='u_0_8']")).click();
-               driver.findElement(By.xpath("//*[@id='u_0_z']")).click();
-              driver.findElement(By.xpath("//*[@id='reg_pages_msg']/a")).click();
-              driver.navigate().back();
-              driver.quit();
-
+    sel1.selectByVisibleText("12");
+     Select sel2=new Select(driver.findElement(By.xpath("//*[@id='month']")));
+     sel2.selectByValue("2");
+     Select sel3=new Select(driver.findElement(By.xpath("//*[@id='year']")));
+     sel3.selectByIndex(3);
+     System.out.println("Dropdown Selected");
+     driver.findElement(By.xpath("//*[@id='u_0_8']")).click();
+     driver.findElement(By.xpath("//*[@id='u_0_z']")).click();
+     driver.findElement(By.xpath("//*[@id='reg_pages_msg']/a")).click();
+     driver.navigate().back();
+     driver.quit():
+		 System.out.println("Yup!!! Finally we have write the code");
     
    }
  }
